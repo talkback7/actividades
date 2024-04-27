@@ -14,7 +14,7 @@ while True:
         if opcion > 0 and opcion < 4:
             if opcion == 1:
                 print("1.Iniciar sesion")
-                if(user1 is None and pass1 is None) and (user2 is None and pass2 is None) and (user3 is None and pass3 is None)
+                if(user1 is None and pass1 is None) and (user2 is None and pass2 is None) and (user3 is None and pass3 is None):
                    print("no existen usuarios, favor registrarse")
                    continue
                 else:
